@@ -19,7 +19,7 @@ function App() {
       reconnection: true,
     };
 
-    const socket = io("http://10.10.11.72:9090", {
+    const socket = io("https://10.10.11.72:9090", {
       ...token,
     });
     console.log(socket);
